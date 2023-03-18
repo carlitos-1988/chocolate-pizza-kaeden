@@ -1,4 +1,115 @@
 header {
     display: flex;
     flex-direction: row;
+    align-content: center;
+    /* justify-content: center; */
+    margin-top: 30px;
+    justify-content: space-between;
+    width: 80%;
+    font-family: 'Anton', sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+.image-row {
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.delicious{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    padding: 10px
+}
+.print-image{
+    float: right;
+}
+
+
+.repeater{
+    background:url("/img/hr-img.png");
+    background-repeat: repeat;
+    height: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+#repeater{
+    background:url("/img/hr-img.png");
+    background-repeat: repeat;
+    height: 20px; 
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+main {
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 30px;
+    
+}
+
+.top-label{
+    display: flex;
+    flex-direction: column;
+    
+}
+.mid-content{
+    display: flex;
+    flex-direction: column;
+}
+
+#date-pizza{
+    opacity: 60%;
+}
+
+.ingredients-list{
+    display: flex;
+    background:url("/img/list-bg.png");
+    justify-content: space-around;
+    margin-top: 30px;
+    padding: 2%;
+    font-family: 'Russo One', sans-serif;
+}
+
+input:checked + label.removed{
+    text-decoration: line-through;
+}
+
+button{
+    background-color: rgb(173,87,87);
+    width: 150px;
+    height: 50px;
+    border: none;
+    color: white;
+    text-align: center;
+}
+.vanessa{
+    display: flex;
+    justify-content: space-between;
+}
+#description{
+    display: flex;
+    flex-direction: column;
+}
+
+.final{
+    /* display: flex; */
+    position: relative;
+    justify-content: center;
+    top: 28px;
+    left: 45%;
+    z-index: 1;
+}
+
+footer{
+    opacity: 40%;
+    text-align: center;
+    margin-top: 30px;
 }
